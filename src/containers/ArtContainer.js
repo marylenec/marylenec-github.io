@@ -66,9 +66,9 @@ import works from '../data/works'
 
         this.setWorkIds = () => {
           if (this.state.selectedWorks[index].id === this.state.firstWorkId) {
-            window.location.href = "/work/:" + this.state.lastWorkId
+            window.location.href = "/work/" + this.state.lastWorkId
           }
-          else window.location.href = "/work/:" + this.state.selectedWork.id
+          else window.location.href = "/work/" + this.state.selectedWork.id
           }
       }
 
@@ -87,9 +87,9 @@ import works from '../data/works'
 
         this.setWorkIds = () => {
           if (this.state.selectedWorks[index].id === this.state.lastWorkId) {
-            window.location.href = "/work/:" + this.state.firstWorkId
+            window.location.href = "/work/" + this.state.firstWorkId
           }
-          else window.location.href = "/work/:" + this.state.selectedWork.id
+          else window.location.href = "/work/" + this.state.selectedWork.id
           }
       }
 
