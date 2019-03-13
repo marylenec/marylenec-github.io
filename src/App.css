@@ -236,6 +236,9 @@ img.icon {
   .nav-link {
     padding: .1rem;
   }
+  .navbar-brand {
+    margin: .5rem;
+  }
   p {
     margin: 0px 10px;
   }
