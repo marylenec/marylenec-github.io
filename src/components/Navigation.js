@@ -12,7 +12,7 @@ const NavBar = (props) => {
         <div className='Navigation'>
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
               <div className="container">
-                <NavLink exact to='/home' className="logo navbar-brand js-scroll-trigger" href="#page-top">Elizabeth Andrade Arnold</NavLink>
+                <NavLink exact to='/' className="logo navbar-brand js-scroll-trigger" href="#page-top">Elizabeth Andrade Arnold</NavLink>
                 <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                   <i className="fa fa-bars"></i>
                 </button>

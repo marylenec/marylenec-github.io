@@ -101,7 +101,7 @@ import works from '../data/works'
             onSelectedWorksHandler={this.onSelectedWorksHandler}
             onChangeHandler={this.onSearchHandler} value={this.state.searchTerm}/>
             <Switch>
-              <Route exact path='/home'
+              <Route exact path='/'
               render={() => {
                 return (
                   <Home  />
