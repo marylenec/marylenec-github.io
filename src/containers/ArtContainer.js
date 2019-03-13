@@ -22,8 +22,7 @@ import works from '../data/works'
             selectedWorks: [],
             selectedWork: null,
             firstWorkId: null,
-            lastWorkId: null,
-            routeWorkId: '/work/:id'
+            lastWorkId: null
           }
       }
 
@@ -67,14 +66,9 @@ import works from '../data/works'
 
         this.setWorkIds = () => {
           if (this.state.selectedWorks[index].id === this.state.firstWorkId) {
-            this.setState({
-              routeWorkId: this.state.firstWorkId
-            })
+            window.location.href = "/work/:" + this.state.lastWorkId
           }
-          else
-            this.setState({
-              this.state.selectedWork.id
-            })
+          else window.location.href = "/work/:" + this.state.selectedWork.id
           }
       }
 
@@ -92,15 +86,10 @@ import works from '../data/works'
         }, () => this.setWorkIds())
 
         this.setWorkIds = () => {
-          if (this.state.selectedWorks[index].id === this.state.firstWorkId) {
-            this.setState({
-              routeWorkId: this.state.firstWorkId
-            })
+          if (this.state.selectedWorks[index].id === this.state.lastWorkId) {
+            window.location.href = "/work/:" + this.state.firstWorkId
           }
-          else
-            this.setState({
-              this.state.selectedWork.id
-            })
+          else window.location.href = "/work/:" + this.state.selectedWork.id
           }
       }
 
@@ -119,7 +108,7 @@ import works from '../data/works'
               )
               }} />
               <Route path="/about" component={About}/>
-              <Route exact path={this.state.routeWorkId} render={(props) => {
+              <Route exact path='/work/:id' render={(props) => {
                 let workId = parseInt(props.match.params.id)
 
                 return (
