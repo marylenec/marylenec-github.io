@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/marylenec-github.io/static/js/runtime~main.78ed7477.js"
   },
   {
-    "revision": "32fefa76fdc318e7abcd",
-    "url": "/marylenec-github.io/static/js/main.32fefa76.chunk.js"
+    "revision": "e8bfb4cf752419a7c6aa",
+    "url": "/marylenec-github.io/static/js/main.e8bfb4cf.chunk.js"
   },
   {
     "revision": "456ace863add9b038b32",
     "url": "/marylenec-github.io/static/js/2.456ace86.chunk.js"
   },
   {
-    "revision": "32fefa76fdc318e7abcd",
+    "revision": "e8bfb4cf752419a7c6aa",
     "url": "/marylenec-github.io/static/css/main.158d1634.chunk.css"
   },
   {
-    "revision": "172094f20654ede323259fc99e83d7f6",
+    "revision": "2fa272289dacad80cdd67f0bf3d50e82",
     "url": "/marylenec-github.io/index.html"
   }
 ];
