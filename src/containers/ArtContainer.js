@@ -87,9 +87,9 @@ import works from '../data/works'
 
         this.setWorkIds = () => {
           if (this.state.selectedWorks[index].id === this.state.lastWorkId) {
-            window.location.href = "https://marylenec.github.io/marylenec-github.io/work/" + this.state.firstWorkId
+            window.location.href = "https://marylenec.github.io/work/" + this.state.firstWorkId
           }
-          else window.location.href = "https://marylenec.github.io/marylenec-github.io/work/" + this.state.selectedWork.id
+          else window.location.href = "https://marylenec.github.io/work/" + this.state.selectedWork.id
           }
       }
 
