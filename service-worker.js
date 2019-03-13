@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/marylenec-github.io/precache-manifest.935676a939896de595d48ca118881eee.js"
+  "/marylenec-github.io/precache-manifest.0c0fded11666c4678ceda0f49fe4da20.js"
 );
 
 workbox.clientsClaim();
